@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>квест</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="quest.js"></script>
+
+    <style>
+        #logo123{
+            font-family: Baskerville;
+            font-size: 2em;
+            color: rgba(255,255,255,.8);
+            font-size: italic;
+            text-align: center;
+            margin-bottom: 30px;
+            background-color:#1F8AA5 ;
+            border-radius: 0 0 10px 10px;
+            padding: 10px;
+
+        }
+        #formResult{
+            width: 250px;
+
+        }
+        #checkup{
+
+        }
+        #pege1{
+            height: 350px;
+
+
+        }
+        #pege2{
+            height: 350px;
+
+        }
+        #pege3{
+            height: 350px;
+
+        }
+        #pege4{
+            height: 350px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="logo123" class="col-xs-12 col-sm-12">
+    Название квеста
+</div>
+    <div class="container">
+        <div class="row">
+<div class="col-md-12 col-xs-12 col-sm-12">
+    <div id="pege1">
+<h1 class="text-center">здесь заголовок</h1>
+        <p class="text-center">Вступительное слово о квесте</p>
+        <p class="text-center">Первый вопрос... (ответ: шалтай)</p>
+        <img class="center" src="https://demiart.ru/forum/uploads3/post-460708-1249548829.jpg" width="300">
+        <hr/>
+    </div>
+
+<div id="pege2">
+    <h1 class="text-center">здесь заголовок, можно и без него</h1>
+    <p class="text-center">Второй вопрос... (ответ: болтай)</p>
+    <p class="text-center">В  любую страницу можем втавить видео, картинку, ссылки, и т.д</p>
+    <center><img src="http://www.securitylab.ru/upload/iblock/955/955253daf32d92f18efa6b32da08fcb6.jpg" width="350"></center>
+    <hr/>
+</div>
+    <div id="pege3">
+
+        <p class="text-center">И так далее...т.е. вопросов можно включить столько сколько нужно..</p>
+        <p class="text-center">????????Какой то вопрос (ответ: сидел)</p>
+        <center><img src="https://media-cdn.tripadvisor.com/media/photo-s/07/8b/ff/02/funlock.jpg" width="250" alt=""/><img src="https://media-cdn.tripadvisor.com/media/photo-s/07/8b/ff/02/funlock.jpg" width="250" alt=""/><img src="https://media-cdn.tripadvisor.com/media/photo-s/07/8b/ff/02/funlock.jpg" width="250" alt=""/><img src="https://media-cdn.tripadvisor.com/media/photo-s/07/8b/ff/02/funlock.jpg" width="250" alt=""/></center>
+        <hr/>
+    </div>
+<div id="pege4">
+    <h1 class="text-center"> Спасибо за участие в квесте! </h1>
+    <p class="text-center">Большое спасибо, что прошли наш Квест!</p>
+
+    <p class="text-center">Заполните форму регистрации и получите сертификат.</p>
+    <center> [contact-form-7 id="6890" title="quest"]</center>
+</div>
+    <center id="formClik">
+<div class="form-group ">
+    <label for="formResult">Ваш ответ:</label>
+    <input type="text" class="form-control" id="formResult">
+    <div id="sResult"></div>
+</div>
+<button id="checkup" type="button" class="btn btn-primary btn-lg ">Проверить</button>
+    </center>
+</div>
+</div>
+</div>
+<script>
+    (function () {
+        document.getElementsByClassName('pege1')[0].style.display = 'block';
+        document.getElementById('formResult').style.width="200px";
+        document.getElementById('pege2').style.display = 'none';
+        document.getElementById('pege3').style.display = 'none';
+        document.getElementById('pege4').style.display = 'none';
+    }());
+
+</script>
+</body>
+</html>
+
+
