@@ -15,15 +15,14 @@ window.onload = inites;
 		var cliKS = document.getElementById('checkup');
         cliKS.onclick = function () {
 			document.getElementById('sResult').innerHTML = " ";
-            var answer = guessInput.value.toLowerCase();
-			
+            var answer = guessInput.value;
+			var kod = '393047';
 
-            if (answer === "393047" ) {
-				
+            if (answer === kod ) {
+				 document.getElementById("formResult").value = "";
                 document.getElementById('pege1').style.display = 'none';
                 document.getElementById('pege2').style.display = 'block'; 
 				document.getElementById('formClik').style.display = 'none';
-				
 				return ;
 			
 				
