@@ -10,7 +10,7 @@ window.onload = inites;
 		}
 		
 		
-		var guessInput = document.getElementById('formResult');
+		var guessInput = document.getElementById('formResults');
 		guessInput.onkeypress = handKeyPress;
 		var cliKS = document.getElementById('checkup');
         cliKS.onclick = function () {
@@ -19,9 +19,9 @@ window.onload = inites;
 			var kod = '393047';
 
             if (answer === kod ) {
-				 document.getElementById("formResult").value = "";
-                document.getElementById('pege1').style.display = 'none';
-                document.getElementById('pege2').style.display = 'block'; 
+				 document.getElementById("formResults").value = "";
+                document.getElementById('pegeOne').style.display = 'none';
+                document.getElementById('pegeTwo').style.display = 'block'; 
 				document.getElementById('formClik').style.display = 'none';
 				return ;
 			
