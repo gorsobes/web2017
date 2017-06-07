@@ -21,8 +21,10 @@ window.onload = inites;
             if (answer === kod ) {
 				 document.getElementById("formResults").value = "";
                 document.getElementById('pegeOne').style.display = 'none';
+				document.getElementById('pegeOne').style.display = 'none';
                 document.getElementById('pegeTwo').style.display = 'block'; 
 				document.getElementById('formClik').style.display = 'none';
+				
 				return ;
 			
 				

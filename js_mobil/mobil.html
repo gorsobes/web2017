@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mobil</title>
+   
+
+   
+</head>
+<body>
+<p class="textMobil"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi ex explicabo doloremque labore quo quam ab unde similique sapiente, vel fugit delectus harum quidem vitae ea nam, esse, commodi.</span>
+<span>Adipisci, unde corporis et, velit vel ducimus eligendi vitae consequatur modi rem, temporibus amet iste aliquam sapiente sit, illum nam odio! Quo, error, maiores? Sunt vero, maxime velit itaque laboriosam.</span>
+<span>Quas, velit doloremque alias quos veritatis, modi et commodi accusantium officia dignissimos officiis aut illo aliquam recusandae assumenda delectus distinctio ut consequuntur nemo tempore, itaque quidem illum? Provident, a, ducimus.</span>
+<span>Explicabo ullam ea, officia odio fugit labore necessitatibus voluptatibus? Nobis possimus suscipit non quod quia temporibus eaque dicta illo voluptatem. Quidem, placeat quo ea ut corporis dolore esse eveniet magnam.</span></p>
+<ul>
+	<li class="textMobil">fop</li>
+	<li class="textMobil">FDRFF</li>
+	<li class="textMobil">FRFRF</li>
+	<li class="textMobil">RFRRFF</li>
+</ul>
+<script>
+   
+	function textLi(){
+		var scr_ww = document.body.clientWidth;
+		var textL = document.getElementsByClassName('textMobil');
+		for (var j = 0;j <= textL.length;j++) {
+			if (scr_ww < 481) {
+				textL[j].style.fontSize = '12px';
+				textL[j].style.textAlign = 'left';
+			}
+		}
+	}
+	textLi();
+</script>
+
+</body>
+</html>
+
+
