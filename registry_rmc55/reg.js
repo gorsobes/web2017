@@ -17,12 +17,23 @@ window.onload = inites;
 			document.getElementById('sResult').innerHTML = " ";
             var answer = guessInput.value;
 			var kod = '393047';
+			var kodArea = '123654';
 
             if (answer === kod ) {
 				 document.getElementById("formResults").value = "";
-                document.getElementById('pegeOne').style.display = 'none';
-				document.getElementById('pegeOne').style.display = 'none';
+                document.getElementById('pegeOne').style.display = 'none';			
                 document.getElementById('pegeTwo').style.display = 'block'; 
+				document.getElementById('formClik').style.display = 'none';
+				
+				return ;
+			
+				
+
+            }
+			 if (answer === kodArea ) {
+				 document.getElementById("formResults").value = "";
+                document.getElementById('pegeOne').style.display = 'none';
+                document.getElementById('pegeThreу').style.display = 'block'; 
 				document.getElementById('formClik').style.display = 'none';
 				
 				return ;
